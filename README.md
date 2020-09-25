@@ -1,4 +1,4 @@
-# @alaneicker/sass-utilities
+# Sass Utilities
 
 The Sass Utilities package contains a variety of Sass utilities to help make styling your project easier.
 
