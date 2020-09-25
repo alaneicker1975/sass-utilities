@@ -1,7 +1,7 @@
 {
-  "name": "sass-utilities",
+  "name": "@alaneicker/sass-utilities",
   "description": "A small library of Sass utility classes, function, mixins and variables",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "keywords": [
     "CSS",
     "Sass",
@@ -20,6 +20,14 @@
   "scripts": {
     "release:major": "npm version major -m \"Upgrade to %s\" && npm run push-release",
     "release:minor": "npm version minor -m \"Upgrade to %s\" && npm run push-release",
-    "release:patch": "npm version patch -m \"Upgrade to %s\" && npm run push-release"
+    "release:patch": "npm version patch -m \"Upgrade to %s\" && npm run push-release",
+    "push-release": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "stylelint": "^13.7.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0",
+    "stylelint-selector-bem-pattern": "^2.1.0"
   }
 }
