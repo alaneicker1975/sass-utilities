@@ -18,6 +18,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "lint:sass": "stylelint ./**/*.scss --config .stylelintrc.json --fix",
     "release:major": "npm version major -m \"Upgrade to %s\" && npm run push-release",
     "release:minor": "npm version minor -m \"Upgrade to %s\" && npm run push-release",
     "release:patch": "npm version patch -m \"Upgrade to %s\" && npm run push-release",
