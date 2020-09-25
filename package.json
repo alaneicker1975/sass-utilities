@@ -1,7 +1,7 @@
 {
   "name": "@alaneicker/sass-utilities",
   "description": "A small library of Sass utility classes, function, mixins and variables",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [
     "CSS",
     "Sass",
