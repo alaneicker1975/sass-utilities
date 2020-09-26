@@ -12,8 +12,9 @@ install:
 
 jobs:
   include:
-    - stage: Publish NPM
+    - stage: Lint Sass
       script: npm run lint:sass
+    - stage: Publish NPM
       deploy:
         provider: npm
         skip_cleanup: true
