@@ -1,6 +1,6 @@
-# Sass Utilities
+# Lauchpad Core Sass
 
-The Sass Utilities package contains a variety of Sass utilities to help make styling your project easier.
+The Lauchpad Core Sass package contains a variety of Sass utilities to help make styling your project easier.
 
 ### Features Include:
 
@@ -13,11 +13,11 @@ The Sass Utilities package contains a variety of Sass utilities to help make sty
 ### Installation
 
 ```
-npm install @alaneicker/sass-utilities
+npm install @lauchpad-ui/core-sass
 ```
 
 ### Usage
 
 ```CSS
-@import 'node_modules/@alaneicker/sass-utilities';
+@import 'node_modules/@lauchpad-ui/core-sass';
 ```
