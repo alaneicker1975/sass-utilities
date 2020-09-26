@@ -19,5 +19,5 @@ npm install @atomikui/core-sass
 ### Usage
 
 ```CSS
-@import 'node_modules/@atomikui/core-sass';
+@import 'node_modules/@atomikui/core-sass/main';
 ```
