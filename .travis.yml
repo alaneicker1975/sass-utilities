@@ -17,6 +17,6 @@ deploy:
   skip_cleanup: true
   email: '$EMAIL_ADDRESS'
   api_key: $NPM_API_KEY
-  branches:
-    only:
-      - master
+  on:
+    branch: master
+    repo: atomikui/atomikui-core-sass
