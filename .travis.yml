@@ -1,0 +1,27 @@
+language: node_js
+
+node_js:
+  - '12.16.2'
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+
+jobs:
+  include:
+    - stage: Lint Sass
+      script: npm run lint:sass
+    - stage: Publish NPM
+      script:
+        - npm run build:atomik
+        - npm run build:styles
+      deploy:
+        provider: npm
+        skip_cleanup: true
+        email: '$EMAIL_ADDRESS'
+        api_key: $NPM_API_KEY
+        on:
+          tags: true

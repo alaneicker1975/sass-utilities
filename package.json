@@ -18,21 +18,14 @@
     "access": "public"
   },
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn lint:sass"
-    }
-  },
   "scripts": {
     "lint:sass": "stylelint ./**/*.scss --config .stylelintrc.json --fix",
     "release:major": "npm version major -m \"Upgrade to %s\" && npm run push-release",
     "release:minor": "npm version minor -m \"Upgrade to %s\" && npm run push-release",
     "release:patch": "npm version patch -m \"Upgrade to %s\" && npm run push-release",
-    "push-release": "git push && git push --tags",
-    "publish": "npm publish"
+    "push-release": "git push && git push --tags"
   },
   "devDependencies": {
-    "husky": "^4.3.0",
     "stylelint": "^13.7.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
