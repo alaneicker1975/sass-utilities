@@ -1,12 +1,13 @@
 {
   "name": "@atomikui/core-sass",
   "description": "A small library of Sass utility classes, function, mixins and variables",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "keywords": [
+    "atomikui",
+    "@atomikui/core-sass",
     "CSS",
     "Sass",
-    "Scss",
-    "CSS Utilities"
+    "Scss"
   ],
   "author": "Alan Eicker <alaneicker@gmail.com> (http://www.alaneicker.com)",
   "repository": {
