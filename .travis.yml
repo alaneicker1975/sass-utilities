@@ -12,6 +12,7 @@ install:
 
 jobs:
   include:
+    if: branch = master
     - stage: Publish NPM
       script: npm run lint:sass
       deploy:
@@ -19,5 +20,3 @@ jobs:
         skip_cleanup: true
         email: '$EMAIL_ADDRESS'
         api_key: $NPM_API_KEY
-        on:
-          tags: true
