@@ -10,13 +10,12 @@ cache:
 install:
   - npm install
 
-jobs:
-  include:
-    if: branch = master
-    - stage: Publish NPM
-      script: npm run lint:sass
-      deploy:
-        provider: npm
-        skip_cleanup: true
-        email: '$EMAIL_ADDRESS'
-        api_key: $NPM_API_KEY
+script: npm run lint:sass
+
+deploy:
+  provider: npm
+  skip_cleanup: true
+  email: '$EMAIL_ADDRESS'
+  api_key: $NPM_API_KEY
+  on:
+    tags: true
