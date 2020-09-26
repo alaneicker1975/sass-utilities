@@ -13,11 +13,11 @@ The Atomik UI Core Sass package contains a variety of Sass utilities to help mak
 ### Installation
 
 ```
-npm install @atomikui-ui/core-sass
+npm install @atomikui/core-sass
 ```
 
 ### Usage
 
 ```CSS
-@import 'node_modules/@atomikui-ui/core-sass';
+@import 'node_modules/@atomikui/core-sass';
 ```
