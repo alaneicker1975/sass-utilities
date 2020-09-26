@@ -15,9 +15,6 @@ jobs:
     - stage: Lint Sass
       script: npm run lint:sass
     - stage: Publish NPM
-      script:
-        - npm run build:atomik
-        - npm run build:styles
       deploy:
         provider: npm
         skip_cleanup: true
