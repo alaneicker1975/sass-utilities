@@ -1,6 +1,6 @@
-# Lauchpad Core Sass
+# Atomik UI Core Sass
 
-The Lauchpad Core Sass package contains a variety of Sass utilities to help make styling your project easier.
+The Atomik UI Core Sass package contains a variety of Sass utilities to help make styling your project easier.
 
 ### Features Include:
 
@@ -13,11 +13,11 @@ The Lauchpad Core Sass package contains a variety of Sass utilities to help make
 ### Installation
 
 ```
-npm install @lauchpad-ui/core-sass
+npm install @atomikui-ui/core-sass
 ```
 
 ### Usage
 
 ```CSS
-@import 'node_modules/@lauchpad-ui/core-sass';
+@import 'node_modules/@atomikui-ui/core-sass';
 ```
