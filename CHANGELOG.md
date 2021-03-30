@@ -1,3 +1,9 @@
+# v0.3.0
+
+_March 30, 2021_
+
+- Label mixin updates
+
 # v0.1.2
 
 _October 8, 2020_
