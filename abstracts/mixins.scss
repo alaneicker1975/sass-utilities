@@ -8,9 +8,8 @@
 
 @mixin label {
   font-family: inherit;
-  font-size: rem(12);
-  font-weight: $font-bold;
-  text-transform: uppercase;
+  font-size: rem(15);
+  font-weight: $font-semibold;
 }
 
 @mixin focus-outline {
