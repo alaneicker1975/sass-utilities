@@ -1,7 +1,7 @@
 {
   "name": "@atomikui/core-sass",
   "description": "A small library of Sass utility classes, function, mixins and variables",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "keywords": [
     "atomikui",
     "@atomikui/core-sass",
