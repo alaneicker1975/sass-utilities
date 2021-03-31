@@ -91,14 +91,10 @@
 
     @media (max-width: $breakpoint) {
       &\@#{$name} {
-        &[class*='--hr'] > * + * {
-          margin-left: 0;
-        }
-
         @each $increment in $spacing-increments {
-          .flex--hr-#{$increment} > * + * {
+          &[class*='--hr-#{$increment}'] > * + * {
             margin-left: 0;
-            margin-bottom: rem($increment);
+            margin-top: rem($increment);
           }
         }
       }
