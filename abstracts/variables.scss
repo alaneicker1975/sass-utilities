@@ -86,14 +86,16 @@ $formfield-sizes: (
 $border-radius: 3;
 
 // Breakpoints
-$breakpoint-small: 576px !default;
+$breakpoint-small: 480px !default;
 $breakpoint-medium: 768px !default;
 $breakpoint-large: 1024px !default;
+$breakpoint-extra-large: 1200px !default;
 
 $breakpoints: (
   small: $breakpoint-small,
   medium: $breakpoint-medium,
   large: $breakpoint-large,
+  extra-large: $breakpoint-extra-large,
 ) !default;
 
 $site-width: 1224;
